@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+var majorityElement = function (nums) {
+        let map = new Map();
+
+        for (let i = 0; i < nums.length; i++) {
+          if (map.has(nums[i])) {
+            let count = map.get(nums[i]);
+            console.log(count);
+            map.set(nums[i], count + 1);
+          }
+          map.set(nums[i], 1);
+        }
+        return map;
+      };
+      console.log(majorityElement([3, 2, 3, 5]));
+      console.log("hi")
+
+
+    </script>
+    
+</body>
+</html>
