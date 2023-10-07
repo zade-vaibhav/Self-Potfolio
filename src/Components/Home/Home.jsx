@@ -6,11 +6,11 @@ import Projects from "./Projects"
 
 const Home = () => {
   return (
-    <>
+    <div className={styles.container}>
     <Introduction/>
     <Skills/>
     <Projects/>
-    </>
+    </div>
   )
 }
 

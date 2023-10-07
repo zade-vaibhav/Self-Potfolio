@@ -1,0 +1,109 @@
+.container {
+    height: 100%;
+    width: 100vw;
+    background-color: rgb(6, 6, 34);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 0px 70px 0px 0px;
+}
+
+.skill_title {
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 80px;
+    color: white;
+}
+
+.skill_desc {
+    font-size: 20px;
+    color: rgb(173, 170, 170);
+}
+
+.types {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill_type {
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid rgb(99, 94, 94, 1);
+    padding: 10px;
+    border-radius: 5px;
+    color: rgb(172, 169, 169);
+    transition: 1s all ease;
+    cursor: pointer;
+}
+
+.skill_container {
+    width: 80%;
+    height: 550px;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid rgb(99, 94, 94, .2);
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.skill_card {
+    height: 60%;
+    width: 300px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 10px;
+    border: 1px solid rgb(92, 92, 92);
+    margin-bottom: 15px;
+}
+
+.card_title {
+    font-size: 20px;
+    font-weight: 600;
+    color: antiquewhite;
+    height: 20%;
+}
+
+.div {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(6, 6, 34);
+    
+}
+
+.div2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    background-color: rgb(6, 6, 34);
+
+}
+
+.skills {
+    font-size: 10px;
+    font-weight: 500;
+    border: 1px solid rgb(99, 94, 94, 1);
+    padding: 5px;
+    border-radius: 5px;
+    color: rgb(172, 169, 169);
+    transition: 1s all ease;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
