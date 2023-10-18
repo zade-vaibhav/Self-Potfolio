@@ -1,5 +1,5 @@
 .container{
-    height: 100vh;
+    height:91vh;
     width: 100vw;
     background-color:rgba(42, 42, 58, 0.5) !important;
     display: flex;
@@ -8,6 +8,7 @@
     flex-wrap: wrap-reverse;
     border-radius: 0px 0px 70px 0px;
     font-family: "poppins";
+    /* transform: translateY(-32px); */
     
 }
 
@@ -16,6 +17,10 @@
     max-height: 700px;
     padding-left:15px;
     padding-bottom:15px;
+}
+.introImage_Container{
+    height: 350px;
+    width: 350px;
 }
 .imageContainer{
     background-image: url("https://images.ctfassets.net/h6goo9gw1hh6/2sNZtFAWOdP1lmQ33VwRN3/24e953b920a9cd0ff2e1d587742a2472/1-intro-photo-final.jpg?w=1200&h=992&fl=progressive&q=70&fm=jpg");
@@ -27,6 +32,3 @@
     margin: 10px;
 }
 
-.image{
-   
-}
